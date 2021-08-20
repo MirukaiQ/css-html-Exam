@@ -1,0 +1,45 @@
+/* LOGOS */
+.header-logo {
+    margin: 30px 0px 15px -150px;  
+}
+
+.header-borders-logo {
+    margin: 65px 0px 0px 1250px;   
+}
+/* SECOND SECTION BACKGROUND */
+.header-second-section {
+    background-image: url(/assets/images/Rectangle\ 48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 20px ;
+    height: 750px;
+}
+/* SECOND SECTION TEXT CONTENT */
+.second-section-text-content, .second-section-buttons {
+    color:white;
+    text-align: center;
+}
+.second-section-heading {
+    padding: 60px 0px 10px 0px;
+    color:#F6F6F6;
+    font-size: 36px;
+    font-weight: 500;
+}
+.second-section-main-1, .second-section-main-2 {
+    font-size: 70px;
+    font-weight: bold;
+}
+.second-section-footer {
+    color: #F6F6F6;
+    font-size: 37px;
+    padding-top: 25px;
+}
+/* SECOND SECTION BUTTONS */
+.second-section-first-button, .second-section-second-button {
+    font-size: 30px;
+    display: inline;
+}
+.second-section-first-button {
+    background-color: #FA4A0C;
+}
