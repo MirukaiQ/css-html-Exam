@@ -7,10 +7,12 @@
     margin: 65px 0px 0px 1250px;   
 }
 /* SECOND SECTION BACKGROUND */
-.header-second-section {
+.flex-wrapper {
     background-image: url(/assets/images/Rectangle\ 48.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
+    max-width: 100%;
     background-size: 100%;
     margin-top: 20px ;
     height: 750px;
@@ -21,25 +23,36 @@
     text-align: center;
 }
 .second-section-heading {
-    padding: 60px 0px 10px 0px;
+    padding: 70px 0px 10px 0px;
     color:#F6F6F6;
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 450;
+    margin-bottom: 20px;
 }
 .second-section-main-1, .second-section-main-2 {
     font-size: 70px;
-    font-weight: bold;
+    font-weight: 550;
 }
 .second-section-footer {
     color: #F6F6F6;
-    font-size: 37px;
-    padding-top: 25px;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 /* SECOND SECTION BUTTONS */
 .second-section-first-button, .second-section-second-button {
     font-size: 30px;
-    display: inline;
+    color: #F6F6F6;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 15px 60px;
 }
 .second-section-first-button {
     background-color: #FA4A0C;
+    border: 1px solid rgb(58, 56, 56);
+}
+.second-section-second-button {
+    border: 1px solid rgb(197, 191, 191);   
+    background: none;
 }

@@ -1,1 +1,6 @@
 /* header */
+@media screen and (max-width: 500px) {
+    .flex-wrapper {
+        /* width: 560px; */
+    }
+}
