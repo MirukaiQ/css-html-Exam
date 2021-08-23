@@ -1,70 +1,51 @@
 /* LOGOS */
-.header-first-section-logos {
-    margin: 30px 0px;
+.header-nav-section-logos {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .header-first-logo {
-    margin-left: 150px; 
+    margin-top: 30px;
 }
 
 .header-second-logo {
-    display: block;
-    /* text-decoration: none; */
+    padding: 30px 0px 0px 1400px;
     border: 0;
     background-color:transparent;
-    /* margin-left: 1300px; */
 }
 /* SECOND SECTION BACKGROUND */
-.flex-wrapper {
+.second-section-wrapper {
     background-image: url(/assets/images/Rectangle\ 48.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
     background-size: cover;
     width: 100%;
     height: 750px;
     margin-top: 20px ;
 }
 /* SECOND SECTION TEXT CONTENT */
-.second-section-text-content, .second-section-buttons {
+.second-section-text, .second-section-buttons {
     color:white;
     text-align: center;
 }
 .second-section-heading {
     padding: 70px 0px 10px 0px;
-    color:#F6F6F6;
-    font-size: 30px;
     font-weight: 450;
     margin-bottom: 20px;
 }
-.second-section-main-1, .second-section-main-2 {
+.second-section-heading, .second-section-footer {
+    font-size: 30px;
+    color:#F6F6F6
+}
+.second-section-content{
     font-size: 70px;
     font-weight: 550;
 }
 .second-section-footer {
-    color: #F6F6F6;
-    font-size: 30px;
     padding-top: 35px;
     padding-bottom: 20px;
-}
-/* SECOND SECTION BUTTONS */
-.second-section-first-button, .second-section-second-button {
-    text-decoration: none;
-    font-size: 29px;
-    color: #F6F6F6;
-    display: inline-block;
-    border-radius: 25px;
-    margin: 30px 15px;
-    padding: 10px 47px;
-    z-index: 8;
-}
-.second-section-first-button {
-    background-color: #FA4A0C;
-    border: 1px solid rgb(58, 56, 56);
-}
-
-.second-section-second-button {
-    border: 1px solid rgb(197, 191, 191);   
-    background: none;
 }
 /* THIRD SECTION  */
 .header-third-section {
@@ -80,14 +61,21 @@
     justify-content: center;
 }
 .header-first-phone {
+    background-image: url(/assets/images/phone-1.png);
+    height: 800px;
+    width: 400px;
     position: absolute;
-    bottom:-470px;
-    left: 510px;
+    bottom:-400px;
+    left: 490px;
     z-index: 4;
 }
 .header-second-phone {
+    background-image: url(/assets/images/phone-2.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 300px;
     position: absolute;
-    top: -170px;
+    top: -160px;
     right: 680px;
     z-index: 3;
 }

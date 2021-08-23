@@ -1,0 +1,24 @@
+.second-section-first-button, .second-section-second-button, .download-first-button, .download-second-button {
+    text-decoration: none;
+    font-size: 29px;
+    color: #F6F6F6;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 30px 15px;
+    padding: 10px 60px;
+    z-index: 8;
+}
+.second-section-first-button, .download-first-button {
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+}
+
+.second-section-second-button, .download-second-button {
+    border: 2px solid rgb(218, 212, 212);   
+    background: none;
+}
+.download-first-button, .download-second-button {
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 20px;
+}

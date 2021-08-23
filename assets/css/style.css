@@ -1,5 +1,9 @@
+@import url(/assets/css/variables.css);
 @import url(/assets/css/bootstrap-reboot.rtl.css);
 @import url(/assets/css/bootstrap.min.css);
 @import url(/assets/css/header.css);
-@import url(/assets/css/media.css);
-@import url(/assets/css/flex.css);
+@import url(/assets/css/main.css);
+@import url(/assets/css/download.css);
+@import url(/assets/css/buttons.css);
+/* @import url(/assets/css/media.css); */
+
