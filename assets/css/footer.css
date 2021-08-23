@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 180px;
+    width: 100%;
+}
+.footer-image {
+    display: inline;
+}
+
+.footer-image {
+    padding: 0px 10px;
+}
+.footer-text {
+    margin-top: 50px;
+    font-size: 15px;
+}
