@@ -1,0 +1,98 @@
+html, body {
+    overflow-x: hidden;
+}
+@media (min-width:320px) {
+    /* header  */
+    .header-button {
+        padding: 30px 30px 0px 0px;
+    }
+    .second-section-wrapper {
+        background-image: none;
+        background-color: #FAFAFA;
+    }
+    .second-section-heading, .second-section-footer {
+        color:#737373;
+        font-size: 20px
+    }
+    .second-section-content {
+        font-size: 29px;
+        font-weight: 570;
+        color:#252B42
+    }
+    .second-section-second-button {
+        color: #FA4A0C;
+        border: 1px solid #FA4A0C;;
+    }
+    .second-section-first-button, .second-section-second-button {
+        margin: 8px 15px;
+    }
+    .header-first-phone {
+        background-image: url(/assets/images/phone-1-sm.png);
+        bottom:23%;
+        left: 0%;
+    }   
+    .header-second-phone {
+        background-image: url(/assets/images/phone-2-sm.png);
+        bottom: 24%;
+        left: 35%;
+    }
+    .header-third-section-border {
+        margin-top: 300px;
+    }
+    /* main  */
+    .main-section-text-heading {
+        margin: 40px;
+    }
+    .flex-wrapper-2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .flex-wrapper-1{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .image-margin {
+        margin-left: -90px;
+        text-align: center;
+    }
+    .main-second-section-text {
+        margin-left:  0px;
+    }
+    .content-margin {
+        margin-bottom: 50px;
+    }
+    /* download  */
+    .download {
+        background-image: none;
+        background-color: #252B42;
+    }
+    .download-text-heading {
+        padding-top: 100px;
+    }
+    .download-text-content {
+        color:#BDBDBD;
+        font-size: 20px
+    }
+    .download-text-heading{
+        font-size: 40px;
+    }
+    .download-first-button, .download-second-button {
+        border-radius: 10px;
+        padding: 20px 40px;
+        font-weight: 550;
+        font-size: 10px;
+    }
+    /* footer  */
+    .footer-logo {
+        display: none;
+    }
+    .footer-text {
+        margin-top: 10px ;
+    }
+    .footer-images {
+        display: flex;
+        justify-content: center;
+    }
+}

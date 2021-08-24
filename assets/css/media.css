@@ -1,112 +1,47 @@
-/* header */
-html, body {
-    /* Убирает прокрутку по горизонтале, для мобильной версии */
-    overflow-x: hidden;
-}
-@media screen and (min-width:320px) {
-    /* logos */
-    .header-nav-list-logos {
-        width: 100%;
+@media (max-width:3000px) and (max-width:3500px) { 
+    .header-button {
+        padding: 30px 0px 0px 2750px;   
     }
-    .header-second-logo {
-        padding: 30px 0px 0px 15px;
-        margin-right: 30px;
+    .second-section-content{
+    font-size: 100px;
+    font-weight: 550;
     }
-    /* second section  */
-    .second-section-wrapper {
-        background-image: none;
-        background-color: #FAFAFA;
-        width: 100%;
+    .second-section-footer {
+        padding-bottom: 0px;
     }
-    .second-section-heading, .second-section-footer {
-        color:#737373;
-        font-size: 20px
-    }
-    .second-section-main {
-        font-size: 29px;
-        font-weight: 570    ;
-        color:#252B42
-    }
-    /* buttons */
-    .second-section-second-button {
-        color: #FA4A0C;
-        border: 1px solid #FA4A0C;;
-    }
-    .second-section-first-button, .second-section-second-button {
-        margin: 8px 15px;
-    }
-    /* phones */
     .header-first-phone {
-        background-image: url(/assets/images/phone-1-sm.png);
-        height: 700px;
-        width: 350px;
-        bottom: -320px;
-        left: 0px;
+        bottom:5%;
+        left: 39%;
     }
     .header-second-phone {
-        background-image: url(/assets/images/phone-2-sm.png);
-        height: 410px;
-        width: 210px;
-        right: 0px;
-        top: -180px;
+        bottom: 5%;
+        right: 42%;
     }
-    /* border  */
     .header-third-section-border {
-        margin-left: 0px;
-        width: 100%;
+        margin: 0px auto;
+        margin-top: 500px; 
     }
 }
-@media screen and (min-width:450px) {
-    /* logos */
-    .header-nav-list-logos {
-        width: 100%;
-    }
-    .header-second-logo {
-        padding: 30px 0px 0px 15px;
-        margin-left: 150px;
-    }
-    /* second section  */
-    .second-section-wrapper {
-        background-image: none;
-        background-color: #FAFAFA;
-        width: 100%;
-    }
-    .second-section-heading, .second-section-footer {
-        color:#737373;
-        font-size: 25px
-    }
-    .second-section-main {
-        font-size: 40px;
-        font-weight: 570    ;
-        color:#252B42
-    }
-    /* buttons */
-    .second-section-second-button {
-        color: #FA4A0C;
-        border: 1px solid #FA4A0C;;
-    }
-    .second-section-first-button, .second-section-second-button {
-        margin: 8px 15px;
-    }
-    /* phones */
+
+/* @media screen and (min-width:2750px) and (max-width:3200px) {
     .header-first-phone {
-        background-image: url(/assets/images/phone-1-sm.png);
-        height: 700px;
-        width: 350px;
-        bottom: -340px;
-        left: 20px;
+        left: 38%;
     }
     .header-second-phone {
-        background-image: url(/assets/images/phone-2-sm.png);
-        height: 410px;
-        width: 210px;
-        right: 20px;
-        top: -160px;
+        right: 41%;
     }
-    /* border  */
-    .header-third-section-border {
-        margin-left: 0px;
-        width: 100%;
+    .header-button {
+        padding: 30px 0px 0px 2600px;   
     }
-    
 }
+@media screen and (max-width:2950px) {
+    .header-button {
+        padding: 30px 0px 0px 2400px;   
+    }
+    .header-first-phone {
+        left: 37%;
+    }
+    .header-second-phone {
+        right: 40%;
+    }
+} */

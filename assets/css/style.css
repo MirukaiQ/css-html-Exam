@@ -6,5 +6,12 @@
 @import url(/assets/css/download.css);
 @import url(/assets/css/buttons.css);
 @import url(/assets/css/footer.css);
-/* @import url(/assets/css/media.css); */
+@import url(/assets/css/media3.css);
+    /* .second-section-heading, .second-section-footer {
+        font-size: 40px;
+    }
+    .second-section-first-button, .second-section-second-button {
+        padding: 25px 90px;
+        font-size: 40px;
+    } */
 
