@@ -1,12 +1,12 @@
 .second-section-first-button, .second-section-second-button, .download-first-button, .download-second-button {
     text-decoration: none;
-    font-size: 29px;
+    font-size: 30px;
     font-weight: 500;
     color: #F6F6F6;
     display: inline-block;
     border-radius: 35px;
     margin: 30px 15px;
-    padding: 10px 60px;
+    padding: 10px 75px;
     z-index: 8;
 }
 .second-section-first-button, .download-first-button {
