@@ -1,6 +1,7 @@
 html, body {
     overflow-x: hidden;
 }
+ /* 320-980px */
 @media (min-width:320px) {
     /* header  */
     .header-button {
@@ -15,7 +16,7 @@ html, body {
         font-size: 20px
     }
     .second-section-content {
-        font-size: 29px;
+        font-size: 25px;
         font-weight: 570;
         color:#252B42
     }
@@ -25,6 +26,7 @@ html, body {
     }
     .second-section-first-button, .second-section-second-button {
         margin: 8px 15px;
+        padding: 10px 50px;
     }
     .header-first-phone {
         background-image: url(/assets/images/phone-1-sm.png);
@@ -41,29 +43,39 @@ html, body {
     }
     /* main  */
     .main-section-text-heading {
+        font-size: 20px;
         margin: 40px;
+    } 
+    .main-section-text-content {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 0px;
     }
-    .flex-wrapper-2 {
+    .main-section-text-footer {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+     .flex-wrapper-2 {
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
+    } 
     .flex-wrapper-1{
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
-    }
+    } 
     .image-margin {
         margin-left: -90px;
         text-align: center;
-    }
+    } 
     .main-second-section-text {
         margin-left:  0px;
-    }
-    .content-margin {
+    } 
+     .content-margin {
         margin-bottom: 50px;
     }
-    /* download  */
+     /* download   */
     .download {
         background-image: none;
         background-color: #252B42;
@@ -80,11 +92,15 @@ html, body {
     }
     .download-first-button, .download-second-button {
         border-radius: 10px;
-        padding: 20px 40px;
+        padding:20px 40px;
         font-weight: 550;
-        font-size: 10px;
+        font-size: 8px;
     }
     /* footer  */
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
     .footer-logo {
         display: none;
     }
@@ -321,6 +337,9 @@ html, body {
     }   
     .header-third-section-border {
         margin-top: 500px;
+    }
+    .second-section-wrapper {
+        height: 800px;
     } 
      /* main  */
      .image-margin {
@@ -368,4 +387,43 @@ html, body {
         .second-section-first-button, .second-section-second-button {
             padding: 25px 100px;
         }
+         /* download  */
+         .download-text-content {
+            font-size: 40px
+        }
+        .download-text-heading{
+            font-size: 65px;
+        }
+        .download-first-button, .download-second-button {
+            padding: 20px 50px;
+            font-weight: 550;
+            font-size: 35px;
+        }     
 }
+@media (min-width:980px) {
+        /* header  */
+        .second-section-content {
+            font-size: 85px;
+        }
+        .second-section-heading, .second-section-footer {
+            font-size: 67px;
+        }  
+        .header-first-phone {
+            bottom:-10%;
+            left: 25%;
+        }   
+        .header-second-phone {
+            bottom:-10%;
+            left:55%
+        }  
+        .header-third-section-border {
+            margin-top: 550px;
+        }  
+        .second-section-wrapper {
+            height: 930px;
+        }
+        .second-section-first-button, .second-section-second-button {
+            padding: 25px 100px;
+        }
+}
+
