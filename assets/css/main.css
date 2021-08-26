@@ -1,6 +1,5 @@
 .main-header {
     text-align: center;
-    font-size: 30px;
 }
 .row {
     display: flex;
@@ -8,12 +7,10 @@
     align-items: center;
 }
 .main-section-text-heading {
-    font-size: 25px;
     font-weight: 500;
     color: var(--orange);
 }
 .main-section-text-content {
-    font-size: 40px;
     font-weight: 600;
     color: var(--black);
     margin-bottom: 0px;
@@ -22,16 +19,9 @@
     margin-bottom: 20px;
 }
 .main-section-text-footer {
-    font-size: 20px;
     color: var(--gray);
     margin-bottom: 0px;
 }
 .main-second-section {
     margin-top: -120px;
-}
-.main-first-section-image {
-    margin-left: 50px;
-}
-.main-second-section-text {
-    margin-left: 170px;
 }
