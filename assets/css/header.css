@@ -28,25 +28,12 @@
 }
 /* SECOND SECTION TEXT CONTENT */
 .second-section-text, .second-section-buttons {
-    color:white;
     text-align: center;
 }
 .second-section-heading {
     padding: 70px 0px 10px 0px;
     font-weight: 450;
     margin-bottom: 20px;
-}
-.second-section-heading, .second-section-footer {
-    font-size: 30px;
-    color:#F6F6F6
-}
-.second-section-content{
-    font-size: 70px;
-    font-weight: 550;
-}
-.second-section-footer {
-    padding-top: 35px;
-    padding-bottom: 20px;
 }
 /* THIRD SECTION  */
 .header-third-section {
@@ -67,8 +54,6 @@
     height: 800px;
     width: 400px;
     position: absolute;
-    bottom:23%;
-    left: 28%;
     z-index: 4;
 }
 .header-second-phone {
@@ -77,8 +62,6 @@
     height: 600px;
     width: 300px;
     position: absolute;
-    bottom: 15%;
-    right: 35%;
     z-index: 3;
 }
 .header-third-section-border {

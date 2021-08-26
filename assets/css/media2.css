@@ -153,17 +153,25 @@
     .header-button {
         margin: 0px 0px 0px 750px;
     }
+    .header-first-phone {
+        bottom: 23%;
+        left: 25%
+    }   
+    .header-second-phone {
+        left: 48%;
+        bottom: 16%;
+    }
 }
 @media (min-width:1800px) {
     .header-button {
         margin: 0px 0px 0px 900px;
     }
     .header-first-phone {
-        bottom: 18%;
+        bottom: 28%;
         left: 28%;
     }   
     .header-second-phone {
-        bottom: 12%;
+        bottom: 20%;
         left: 48%;
     }
     .second-section-wrapper {
@@ -197,12 +205,12 @@
         margin: 0px 0px 0px 1050px;
     }
     .header-first-phone {
-        bottom: 10%;
-        left: 32%
+        bottom: 20%;
+        left: 30%
     }   
     .header-second-phone {
-        left: 50%;
-        bottom: 8%;
+        left: 48%;
+        bottom: 15%;
     }
     .second-section-heading, .second-section-footer {
         font-size: 40px;
@@ -242,6 +250,12 @@
 @media (min-width:2300px) {
     .header-button {
         margin: 0px 0px 0px 1200px;
+    }
+    .header-first-phone {
+        left: 33%
+    }   
+    .header-second-phone {
+        left: 49%;
     }
 }
 @media (min-width:2500px) {

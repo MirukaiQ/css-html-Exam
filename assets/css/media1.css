@@ -37,11 +37,13 @@ html, body {
         background-image: url(/assets/images/phone-1-sm.png);
         bottom:23%;
         left: 0%;
+        z-index: 9;
     }   
     .header-second-phone {
         background-image: url(/assets/images/phone-2-sm.png);
         bottom: 24%;
         left: 35%;
+        z-index: 9;
     }
     .header-third-section-border {
         margin-top: 300px;
