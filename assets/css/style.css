@@ -8,11 +8,8 @@
 @import url(/assets/css/footer.css);
 @import url(/assets/css/media1.css);    
 @import url(/assets/css/media2.css);
-    /* .second-section-heading, .second-section-footer {
-        font-size: 40px;
-    }
-    .second-section-first-button, .second-section-second-button {
-        padding: 25px 90px;
-        font-size: 40px;
-    } */
-
+:root {
+    --orange: #FA4A0C;
+    --black: #252B42;
+    --gray: #737373;
+}

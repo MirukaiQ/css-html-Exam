@@ -13,7 +13,12 @@
     background-color: var(--orange);
     border: 2px solid var(--orange);
 }
-
+.second-section-first-button:hover, .download-first-button:hover {
+    color: black;
+}
+.second-section-second-button:hover, .download-second-button:hover {
+    color: var(--orange)
+}
 .second-section-second-button, .download-second-button {
     border: 2px solid rgb(218, 212, 212);   
     background: none;
